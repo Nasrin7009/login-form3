@@ -1,0 +1,45 @@
+* { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; outline: 0px; font-family: Arial, Helvetica, sans-serif; }
+
+body {background-image: url(img/img4.jpg);background-position: center;background-size: cover;}
+.sub { width: 76%; background-color: rgb(188, 93, 243); margin: 40px auto; box-shadow: 2px 2px 2px 2px slateblue; padding: 10px 20px; }
+.mini { width: 80%; background-color: white; margin: 50px auto;height: 67vh; box-shadow: 2px 2px 2px 2px slategrey;}
+.header { height: 100px; display: flex; flex-flow: row wrap; place-content: center space-around; align-items: center; }
+.header .logo { font-size: 24px; font-weight: 600; }
+.logo .c { color: chocolate; }
+.header .paragraph { font-size: 22px; text-transform: capitalize; }
+.paragraph p { }
+.paragraph a { color: purple; text-decoration: underline; }
+.main-content { }
+.container { display: flex; flex-flow: row wrap; justify-content: space-evenly; height: calc(67vh-100px);}
+.img-part { }
+.img-part img { width: 300px; height: 300px;}
+.wtn-part { }
+.wtn-part h1 { font-size: 39px; }
+.wtn-part p {text-transform: capitalize;font-size: 16px;padding: 24px 0px;}
+.email { width: 100%; border: 2px solid; padding: 5px; border-radius: 20px; }
+.email input { font-size: 20px; background-color: transparent; }
+.email i { }
+.password { width: 100%; border: 2px solid; padding: 5px; border-radius: 20px; margin-top: 10px; }
+.password input { font-size: 20px; background-color: transparent; }
+.password i { }
+.btn-part {display: flex;justify-content: space-between;}
+.login {
+    padding: 16px 0px;
+}
+.login input{
+    
+padding: 9px 40px;
+    
+background-color: rgb(88, 14, 122);
+color: white;    
+
+    
+border-radius: 20px;
+}
+.forget { }
+.media {display: flex;justify-content: space-around;align-items: center;}
+.login-with { }
+.gmail { }
+.facebook { }
+.twiter { }
+
